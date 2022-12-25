@@ -2,7 +2,7 @@ import Navbar from "./components/Navbar";
 import Slideshhow from "./components/Slideshhow";
 import Header from "./components/Header";
 import Footer from './components/Footer';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Updates from "./pages/Updates";
 import About from './pages/About';
 import Contact from "./pages/Contact";
@@ -16,7 +16,7 @@ function App(props) {
       <Navbar />
       <Slideshhow />
       <Header />
-      <BrowserRouter basename="/zerodegreemuscleszones">
+      <Router basename="/zerodegreemuscleszones">
         <Routes>
           <Route exact path="/zerodegreemuscleszones" ></Route>
           <Route path="map" element={<Map />} ></Route>
@@ -26,7 +26,7 @@ function App(props) {
           <Route path="testimonials" element={<Testimonials />} ></Route>
           <Route path="gallery" element={<Gallery />} ></Route>
         </Routes>
-      </BrowserRouter>
+      </Router>
       <Footer />
     </div>
   );
