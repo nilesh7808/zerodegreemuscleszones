@@ -18,13 +18,13 @@ function App(props) {
       <Header />
       <BrowserRouter basename="/zerodegreemuscleszones">
         <Routes>
-          <Route exact path="/zerodegreemuscleszones" />
-          <Route path="map" element={<Map />} />
-          <Route path="updates" element={<Updates />} />
-          <Route path="about" element={<About />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="testimonials" element={<Testimonials />} />
-          <Route path="gallery" element={<Gallery />} />
+          <Route exact path="/zerodegreemuscleszones" ></Route>
+          <Route path="map" element={<Map />} ></Route>
+          <Route path="updates" element={<Updates />} ></Route>
+          <Route path="about" element={<About />} ></Route>
+          <Route path="contact" element={<Contact />} ></Route>
+          <Route path="testimonials" element={<Testimonials />} ></Route>
+          <Route path="gallery" element={<Gallery />} ></Route>
         </Routes>
       </BrowserRouter>
       <Footer />
