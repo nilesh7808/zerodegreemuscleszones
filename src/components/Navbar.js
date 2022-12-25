@@ -3,7 +3,6 @@ import '../css/navbar.css';
 import '../pages/Testimonials';
 
 const Navbar = (props) => {
-    // console.log(props.value);
     const handleSearch = (event) => {
         const searchedInput = document.getElementById('searchedItem').value;
         window.location = searchedInput;
