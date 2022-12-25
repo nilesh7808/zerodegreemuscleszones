@@ -18,7 +18,7 @@ function App(props) {
       <Header />
       <BrowserRouter basename="/zerodegreemuscleszones">
         <Routes>
-          <Route exact path="/zerodegreemuscleszones" element={<Home />} />
+          <Route exact path="/zerodegreemuscleszones" />
           <Route path="map" element={<Map />} />
           <Route path="updates" element={<Updates />} />
           <Route path="about" element={<About />} />
