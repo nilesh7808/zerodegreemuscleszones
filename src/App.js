@@ -16,7 +16,7 @@ function App(props) {
       <Navbar />
       <Slideshhow />
       <Header />
-      <BrowserRouter>
+      <BrowserRouter basename="/zerodegreemuscleszones">
         <Routes>
         <Route path="map" element={<Map />} />
           <Route path="updates" element={<Updates />} />
