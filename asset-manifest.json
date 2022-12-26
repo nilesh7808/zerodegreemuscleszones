@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/zerodegreemuscleszones/static/css/main.2906e303.css",
-    "main.js": "/zerodegreemuscleszones/static/js/main.bedf98e6.js",
+    "main.js": "/zerodegreemuscleszones/static/js/main.af137be8.js",
     "static/js/787.34e90c49.chunk.js": "/zerodegreemuscleszones/static/js/787.34e90c49.chunk.js",
     "static/media/gym2.jpg": "/zerodegreemuscleszones/static/media/gym2.6508a069e4931f0e4ede.jpg",
     "static/media/gym3.jpg": "/zerodegreemuscleszones/static/media/gym3.16ef6f674d1b929957fa.jpg",
@@ -11,11 +11,11 @@
     "static/media/membership.jpg": "/zerodegreemuscleszones/static/media/membership.38f818f3c0ebc3b6bbbd.jpg",
     "index.html": "/zerodegreemuscleszones/index.html",
     "main.2906e303.css.map": "/zerodegreemuscleszones/static/css/main.2906e303.css.map",
-    "main.bedf98e6.js.map": "/zerodegreemuscleszones/static/js/main.bedf98e6.js.map",
+    "main.af137be8.js.map": "/zerodegreemuscleszones/static/js/main.af137be8.js.map",
     "787.34e90c49.chunk.js.map": "/zerodegreemuscleszones/static/js/787.34e90c49.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2906e303.css",
-    "static/js/main.bedf98e6.js"
+    "static/js/main.af137be8.js"
   ]
 }
